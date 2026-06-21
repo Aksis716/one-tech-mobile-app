@@ -1,52 +1,66 @@
-# Welcome to your Expo app 👋
+# One-Tech
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**One-Tech** is a cross-platform service and commerce app for connectivity products and support. It brings together a customer storefront, order management, support conversations, and field-oriented tools for Starlink and MikroTik equipment.
 
-## Get started
+The app is designed around the real customer journey: discover services, buy products, follow an order, request help, and access practical connection diagnostics from one mobile experience.
 
-1. Install dependencies
+## Highlights
 
-   ```bash
-   npm install
-   ```
+- Product catalogue, cart, checkout, order tracking, and invoice access.
+- Customer authentication, profiles, and password recovery.
+- Support requests and threaded conversations.
+- Starlink diagnostic and debugging flows.
+- MikroTik router connection guidance and local-network tooling.
+- Notifications and a polished home experience with promotional content.
+- Role-based administration for the shop, products, services, requests, users, analytics, platform data, and promotional content.
+- Boutique operations features for inventory, cash movements, daily reporting, printing, and sharing.
 
-2. Start the app
+## Built with
 
-   ```bash
-   npx expo start
-   ```
+- **Expo** and **React Native** for Android, iOS, and web
+- **Firebase** for authentication, cloud data, and storage-backed content
+- Local network integrations for **MikroTik** and **Starlink** workflows
+- Expo modules for notifications, secure storage, media, printing, sharing, and device capabilities
+- React Navigation and custom reusable components for the application shell
 
-In the output, you'll find options to open the app in a
+## Screens
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The repository includes sample screens in [`Screenshots/`](./Screenshots): Home, Market, Starlink, and Settings.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Run locally
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+- Node.js 18 or later
+- npm
+- Expo Go or an Android/iOS simulator for mobile testing
+
+### Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/Aksis716/one-tech-mobile-app.git
+cd one-tech-mobile-app
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Useful commands:
 
-## Learn more
+```bash
+npm run android
+npm run ios
+npm run web
+npm run lint
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Configuration
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Set up your own Firebase project and supply the appropriate Android/iOS configuration files and environment values before building or deploying. Starlink and MikroTik functions require compatible equipment on the local network and the relevant device credentials.
 
-## Join the community
+## Portfolio note
 
-Join our community of developers creating universal apps.
+This project demonstrates an end-to-end customer application rather than a single-purpose screen set: commerce, support, operations, device-aware workflows, and administrator tooling are all connected in one coherent product.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# one-tech-mobile-app
-# one-tech-mobile-app
+## License
+
+All rights reserved. The source is provided for portfolio review; reuse or redistribution requires permission.
